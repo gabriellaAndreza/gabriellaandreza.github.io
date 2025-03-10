@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Calculadora</h3>
+        <p class="mensagem">Digite dois números no formulário abaixo:</p>
+        <form>
+            <label for="numero1-1">Número 1:</label>
+            <input type="number" id="numero1-1" name="numero1-1" placeholder="Digite o primeiro número" required>
+            <label for="numero1-2">Número 2:</label>
+            <input type="number" id="numero1-2" name="numero1-2" placeholder="Digite o segundo número" required>
+             <br> Resultado: <br> 
+            <input type="number" id="Result" name="resultado" placeholder="Resultado"> 
+            <input type="submit" value="Calcular"> <br>
+            <form>
+                <input type="checkbox" id="soma" name="operacao" value="soma">           <label for="soma">Soma</label>
+
+        
+                <input type="checkbox" id="subtracao" name="operacao" value="subtracao">             <label for="subtracao">Subtração</label>
+        
+                <input type="checkbox" id="multiplicacao" name="operacao" value="multiplicacao">     <label for="multiplicacao">Multiplicação</label>
+        
+                <input type="checkbox" id="divisao" name="operacao" value="divisao">       <label for="divisao">Divisão</label>
+
+        </form>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
